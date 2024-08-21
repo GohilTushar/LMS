@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <style>
+      body { font-family: Arial, sans-serif; line-height: 1.6; } .container {
+      margin: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px;
+      background-color: #f9f9f9; } .header { font-size: 1.2em; margin-bottom:
+      20px; } .leave-details { margin-bottom: 20px; border: 1px solid #ddd;
+      padding: 10px; border-radius: 5px; background-color: #fff; }
+      .leave-details h3 { margin: 0 0 10px 0; } .leave-item { margin-bottom:
+      10px; } .footer { margin-top: 20px; font-size: 0.9em; color: #555; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        Dear
+        {{leaveGiverName}},
+      </div>
+      <div class="leave-details">
+        <h3>Pending Leave Request</h3>
+        <div class="leave-item">
+          <p><strong>Name:</strong> {{leaveTakerName}}</p>
+          <p><strong>Email:</strong> {{leaveTakerEmail}}</p>
+          <p><strong>Start Date:</strong> {{startDate}}</p>
+          <p><strong>End Date:</strong> {{endDate}}</p>
+          <p><strong>Reason:</strong> {{reason}}</p>
+          <hr />
+        </div>
+      </div>
+      <div class="footer">
+        <p>Please review this leave request as soon as possible.</p>
+        <p>Thank you!</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "User": [
+    {
+      "Role": 1,
+      "Designation": "Admin",
+      "Description": " Admins can oversee all leave requests, generate reports, and maintain the overall system functionality."
+    },
+    {
+      "Role": 2,
+      "Designation": "Staff",
+      "Description": "Faculty and HOD can approve or reject leave requests and manage their attendance records efficiently."
+    },
+    {
+      "Role": 4,
+      "Designation": "Student",
+      "Description": "Students can easily request and track their leave, ensuring they stay informed about their leave status."
+    }
+  ]
+}

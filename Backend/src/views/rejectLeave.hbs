@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <style>
+      body { font-family: Arial, sans-serif; line-height: 1.6; } .container {
+      margin: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px;
+      background-color: #f9f9f9; } .header { font-size: 1.2em; margin-bottom:
+      20px; } .details { margin-bottom: 20px; } .footer { margin-top: 20px;
+      font-size: 0.9em; color: #555; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        Dear
+        {{leaveTakerName}},
+      </div>
+      <div class="details">
+        <p>Your leave application from
+          {{startDate}}
+          to
+          {{endDate}}
+          has been rejected by
+          {{leaveGiverName}}.</p>
+      </div>
+      <div class="footer">
+        <p>Please contact {{leaveGiverName}} for further information.</p>
+        <p>Thank you!</p>
+      </div>
+    </div>
+  </body>
+</html>

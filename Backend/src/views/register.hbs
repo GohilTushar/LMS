@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <style>
+      body { font-family: Arial, sans-serif; line-height: 1.6; } .container {
+      margin: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px;
+      background-color: #f9f9f9; } .header { font-size: 1.2em; margin-bottom:
+      20px; } .details { margin-bottom: 20px; } .footer { margin-top: 20px;
+      font-size: 0.9em; color: #555; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        Hello,
+        {{userName}}!
+      </div>
+      <div class="details">
+        <p>Thank you for signing up. We are excited to have you on board!</p>
+        <p><strong>Here are your details:</strong></p>
+        <p><strong>Name:</strong> {{userName}}</p>
+        <p><strong>Email:</strong> {{userEmail}}</p>
+        <p><strong>Phone:</strong> {{userPhone}}</p>
+        <p><strong>Address:</strong> {{userAddress}}</p>
+      </div>
+      <div class="footer">
+        <p>If you have any questions, feel free to reply to this email.</p>
+        <p>Best regards,</p>
+        <p>LMS</p>
+      </div>
+    </div>
+  </body>
+</html>
